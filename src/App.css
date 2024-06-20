@@ -1,8 +1,7 @@
-
+/* App.css */
 body {
-  margin: 5;
+  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: azure;
 }
 
 .App {
@@ -78,7 +77,6 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 3px;
   justify-content: space-between;
 }
 
