@@ -67,10 +67,10 @@ function Main() {
     <main className="container">
       <div className="row">
         <h6>Welcome to our Ecommerce site! We specialize in offering top-quality
-        smartphones at unbeatable prices. Our mission is to provide our customers with the latest
-        models and best deals on popular brands like Apple, Samsung, Oppo, and more. With a focus on customer
-        satisfaction, we ensure a seamless shopping experience from browsing to delivery. Explore our wide selection
-        and find the perfect phone that suits your needs. Thank you for choosing us for your mobile needs!</h6>
+          smartphones at unbeatable prices. Our mission is to provide our customers with the latest
+          models and best deals on popular brands like Apple, Samsung, Oppo, and more. With a focus on customer
+          satisfaction, we ensure a seamless shopping experience from browsing to delivery. Explore our wide selection
+          and find the perfect phone that suits your needs. Thank you for choosing us for your mobile needs!</h6>
         <div className="col">
           <div className="card">
             <img src="https://image.oppo.com/content/dam/oppo/product-asset-library/a/a54/a54-overview-5/v1/assets/phone-type-img-1920.png" alt="Product 1" className="card-img-top" />

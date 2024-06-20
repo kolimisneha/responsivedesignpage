@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color:azure;
+  background-color: azure;
 
 }
 
@@ -12,7 +12,8 @@ body {
   min-height: 100vh;
 }
 
-.header, .footer {
+.header,
+.footer {
   background-color: lightseagreen;
   color: white;
   text-align: center;

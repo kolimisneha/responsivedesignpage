@@ -19,7 +19,7 @@ function AboutPage() {
           <h4 className="mt-5">Customer Satisfaction Guaranteed</h4>
           <p>We are committed to ensuring your satisfaction with every purchase. Our friendly support team is available to assist you with any questions or concerns you may have.</p>
 
-         
+
           <p className="text-center mt-5">Thank you for choosing Us,for all your mobile phone needs.</p>
         </div>
       </div>
