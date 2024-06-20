@@ -1,8 +1,7 @@
 
 body {
-  margin: 5;
+  margin: 0;
   font-family: Arial, sans-serif;
-  background-color:azure;
 }
 
 .App {
@@ -44,6 +43,7 @@ body {
   display: block;
   width: 24px;
   height: 24px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg') no-repeat center center;
   background-size: cover;
 }
 
@@ -77,7 +77,6 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 3px;
   justify-content: space-between;
 }
 

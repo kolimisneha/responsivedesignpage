@@ -23,11 +23,15 @@ function App() {
 }
 
 function Header() {
+  const handleToggle = () => {
+    document.getElementById('navbarNav').classList.toggle('active');
+  };
+
   return (
     <header className="header">
       <nav className="navbar">
         <Link className="brand" to="/">Ecommerce</Link>
-        <button className="toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="toggler" type="button" onClick={handleToggle}>
           <span className="icon"></span>
         </button>
         <div className="colla" id="navbarNav">
@@ -50,6 +54,7 @@ function Header() {
     </header>
   );
 }
+
 
 function Home() {
   return (
