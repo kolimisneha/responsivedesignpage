@@ -2,6 +2,10 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+<<<<<<< HEAD
+=======
+  background-color:azure;
+>>>>>>> 681b528 (updated css)
 }
 
 .App {
