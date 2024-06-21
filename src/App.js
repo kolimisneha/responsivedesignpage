@@ -6,9 +6,7 @@ import AboutPage from './Components/AboutPage.js';
 import ContactPage from './Components/ContactPage.js';
 import Home from './Components/Home.js';
 import ServicesPage from './Components/ServicesPage.js';
-import './App.css';
-import AboutPage from './AboutPage';
-import ContactPage from './ContactPage';
+import Footer from './Components/Footer.js';
 
 
 function App() {
@@ -20,9 +18,9 @@ function App() {
     <Router>
       <div className="App">
 
-        <Header handleToggle={handleToggle} />
+        <Header/>
 
-        <Header />
+    
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -36,10 +34,6 @@ function App() {
   );
 }
 function Header({ handleToggle }) {
-  const handleToggle = () => {
-    document.getElementById('navbarNav').classList.toggle('active');
-  };
-
   return (
     <header className="header">
       <nav className="navbar">
@@ -69,12 +63,5 @@ function Header({ handleToggle }) {
 }
 
 
-function Footer() {
-  return (
-    <footer className="footer">
-      <p>&copy; 2024 Ecommerce. All rights reserved.</p>
-    </footer>
-  );
-}
 
 export default App;
