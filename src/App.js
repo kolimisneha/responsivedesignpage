@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/App.css';
+import './App.css';
+import './index.css';
 import AboutPage from './Components/AboutPage.js';
 import ContactPage from './Components/ContactPage.js';
 import Home from './Components/Home.js';
