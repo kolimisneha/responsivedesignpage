@@ -7,6 +7,7 @@ import ContactPage from './Components/ContactPage.js';
 import Home from './Components/Home.js';
 import ServicesPage from './Components/ServicesPage.js';
 import Footer from './Components/Footer.js';
+import Header from './Components/common/Header';
 
 
 function App() {
@@ -17,12 +18,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-
-        <Header/>
-
-    
-
-        <Routes>
+          <Header/>
+          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
@@ -33,35 +30,4 @@ function App() {
     </Router>
   );
 }
-function Header({ handleToggle }) {
-  return (
-    <header className="header">
-      <nav className="navbar">
-        <Link className="brand" to="/">Ecommerce</Link>
-        <button className="toggler" type="button" onClick={handleToggle}>
-          <span className="icon"></span>
-        </button>
-        <div className="colla" id="navbarNav">
-          <ul className="navbarauto">
-            <li className="navitem">
-              <Link className="navlink" to="/">Home</Link>
-            </li>
-            <li className="navitem">
-              <Link className="navlink" to="/about">About</Link>
-            </li>
-            <li className="navitem">
-              <Link className="navlink" to="/services">Services</Link>
-            </li>
-            <li className="navitem">
-              <Link className="navlink" to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-  );
-}
-
-
-
 export default App;
